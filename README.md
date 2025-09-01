@@ -1,12 +1,12 @@
 # ✅ Todo List - Vite / Vue / Tailwind
 
-Une petite application **Todo List** construite avec **Vue.js 3** et **TailwindCSS**.  
-Elle permet de gérer ses tâches simplement depuis le navigateur.
+Une application **Todo List** très simple, construite avec **Vue.js 3** et **TailwindCSS**.  
+Elle permet de gérer des tâches depuis le navigateur.
 
 ---
 
 ## 👀 Aperçu
-![screenshot](screenshot.png)
+![screenshot](/Public/screenshot.png)
 
 ---
 
@@ -27,20 +27,13 @@ Elle permet de gérer ses tâches simplement depuis le navigateur.
 
 ## ⚙️ Installation
 
-### 1. Cloner le projet
-
 git clone https://github.com/stephane-aravit/todolist.git
 cd todolist
-
-### 2. Installer les dépendances
 npm install
-
-### 3. Lancer en mode développement
 npm run dev
 
 ---
 
 🌍 Démonstration
 
-🔗 Voir la démo en ligne
-📂 Lien vers le repo GitHub
+🔗 Voir la démo en ligne : https://tubular-sherbet-7e79ad.netlify.app/
