@@ -6,7 +6,7 @@ Elle permet de gérer des tâches depuis le navigateur.
 ---
 
 ## 👀 Aperçu
-![screenshot](assets/screenshot.png)
+![screenshot](src/assets/screenshot.png)
 
 ---
 
@@ -34,4 +34,6 @@ Elle permet de gérer des tâches depuis le navigateur.
 
 ---
 
-🌍 Démo en ligne : https://tubular-sherbet-7e79ad.netlify.app/
+<a href="https://tubular-sherbet-7e79ad.netlify.app" target="_blank" rel="noopener noreferrer">
+  🌍 Voir la démo en ligne sur Netlify
+</a>
