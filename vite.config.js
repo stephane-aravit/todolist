@@ -1,7 +1,12 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-// https://vite.dev/config/
+// Import du plugin Vite Tailwind CSS
+import tailwindcss from '@tailwindcss/vite'
+
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [
+    vue(),
+    tailwindcss(),  /* Ajout du plugin Tailwind CSS */
+  ],
 })
