@@ -6,7 +6,7 @@ Elle permet de gérer des tâches depuis le navigateur.
 ---
 
 ## 👀 Aperçu
-![screenshot](/Public/screenshot.png)
+![screenshot](assets/screenshot.png)
 
 ---
 
@@ -27,13 +27,11 @@ Elle permet de gérer des tâches depuis le navigateur.
 
 ## ⚙️ Installation
 
-git clone https://github.com/stephane-aravit/todolist.git
-cd todolist
-npm install
-npm run dev
+- git clone https://github.com/stephane-aravit/todolist.git
+- cd todolist
+- npm install
+- npm run dev
 
 ---
 
-🌍 Démonstration
-
-🔗 Voir la démo en ligne : https://tubular-sherbet-7e79ad.netlify.app/
+🌍 Démo en ligne : https://tubular-sherbet-7e79ad.netlify.app/
