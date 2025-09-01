@@ -1,18 +1,26 @@
 <script setup>
 
 // Import de la fonction ref depuis Vue pour pouvoir manipuler des données réactives
-import { ref } from 'vue';
+import { ref, watch } from 'vue';
 // Import de l'icône de suppression depuis Heroicons
 import { XMarkIcon } from "@heroicons/vue/24/outline";
 
 // Nouvelle tâche à saisir
 const newTask = ref('');
-// Tableau des tâches enregistrées
+// Initialisation du tableau des tâches créées
 const tasks = ref([
   { text: 'Apprendre Vue 3', done: true },  
   { text: 'S\'initier à TailwindCss', done: true },
   { text: 'Créer une application de liste de tâches', done: true },
 ]);
+// Récupération des tâches existantes depuis le localStorage du navigateur
+if (localStorage.getItem('tasks')) {
+  tasks.value = JSON.parse(localStorage.getItem('tasks'));
+}
+// Sauvegarde des tâches dans le localStorage
+watch(tasks, (newTasks) => {
+  localStorage.setItem('tasks', JSON.stringify(newTasks));
+}, { deep: true });
 
 // Fonction pour ajouter une nouvelle tâche
 const addTask = () => {
